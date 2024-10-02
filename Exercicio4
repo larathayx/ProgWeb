@@ -1,1 +1,46 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio4
+    </title>
+
+</head>
+<body>
+    <h1>Lara Thays S. Cavalari</h1>
+    <div class="My div">
+        <img src="AvatarMaker (1).png" alt="Foto Lara Thays" width="200" height="200">
+    </div>
+    <div class="My div">
+        <p>@larathayx</p>
+        <p>17 anos</p>
+        <p>larathaysscavalari07@gmail.com</p>
+    </div>
+    <div>
+        <dl>
+            <ol>
+                <li><strong>Formações acadêmicas</strong></li>
+            </ol>
+            <dd>2022 - 2024 | Ensino Médio <p><a href="https://www.escolapacheco.com/">EEEM Renato Pacheco</a></p> </dd>
+            <dd>2023 - 2024 | Técnico em Informática<p><a href="https://serra.ifes.edu.br/">IFES - Serra </a></p></dd>
+            </dl>
+    </div>
+    <div>
+        <dl>
+            <ol>
+                <li><strong>Formações Complementares</strong></li>
+            </ol>
+            <dd>2022 - 2023 | Curso de Inglês - IDIOMAS<p><a href="https://sedu.es.gov.br/curso-de-idiomas">IDIOMAS sedu</a></p></dd>
+            </dl>
+    </div>
+    <div>
+        <ol>
+            <li><strong>Soft Skill</strong></li>
+        </ol>
+        <p><a href=""></a></p>
+    </div>
+
+</body>
+</html>
 
