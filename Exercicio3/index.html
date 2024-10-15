@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+
+    </div>
+    <form action="index.html" method="post">
+    <h1>Cadastrar Usuário</h1>
+    <fieldset>
+        <legend>1 Dados Pessoais</legend>
+        <label for="name">Nome:</label>
+        <input type=" text">
+        <label for="email">Email:</label>
+        <input type="email">
+        <label for="senha">Senha:</label>
+        <input type="text">
+        <label for="csenha">Confirmar Senha:</label>
+        <input type="text">
+        <label for="age">Idade: </label>
+        <input type="radio" id="maior" name="Idade" value="Acima de 17">
+        <label for="maior">Acima de 17</label><br>
+        <input type="radio" id="menor" name="Idade" value="Abaixo ou igual 17">
+        <label for="menor">Abaixo ou igual 17</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>2 Perfil</legend>
+        <label for="view">Descrição:</label>
+        <textarea name="view" id="view" cols="20" rows="2"></textarea>
+        <label for="trabalho">Perfil trabalho: </label>
+        <select name="trabalho" id="trabalho">
+            <option value="Front-End Developer">Front-End Developer</option>
+        </select>
+        <label for="Interesse">Interesse: </label>
+        <input type="checkbox" id="Interesse" name="Interesse" value="Programador">
+        <label for="Interesse">Programador</label><br>
+        <input type="checkbox" id="Interesse2" name="Interesse2" value="Design">
+        <label for="Interesse2">Design</label><br>
+        <input type="checkbox" id="Interesse3" name="Interesse3" value="Analista">
+        <label for="Interesse3">Analista</label>
+
+    </fieldset>
+    <button  type="submit"> Enviar dados </button>
+</form>
+<div>
+
+</div>
+</body>
+</html>
