@@ -1,0 +1,24 @@
+#nome{
+    text-align: center;
+    color: blueviolet;
+}
+#foto{
+    text-align: center;
+}
+h3:hover{
+    background-color: lightblue;
+    transition: 1.5s;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{list-style-type: upper-alpha;
+}
+#info{
+    background-color: lightblue;
+}
+#minhadiv{
+    border: 1px dashed black;
+    text-align: center;
+    background-color: lightgray;
+}
